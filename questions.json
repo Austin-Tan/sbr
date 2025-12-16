@@ -1,0 +1,16 @@
+[
+  {
+    "text": "How do you feel about mornings?",
+    "answers": [
+      { "text": "Love them", "value": "carrot" },
+      { "text": "Hate them", "value": "potato" }
+    ]
+  },
+  {
+    "text": "What's your ideal weekend?",
+    "answers": [
+      { "text": "Productive", "value": "carrot" },
+      { "text": "On the couch", "value": "potato" }
+    ]
+  }
+]

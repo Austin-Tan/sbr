@@ -52,16 +52,44 @@ const total = Object.values(scores).reduce((a, b) => a + b, 0);
     percentages[attr] = Math.round((scores[attr] / total) * 100);
   }
 
+
+  // Find the predominant trait
+  const maxScore = Math.max(...Object.values(scores));
+  const predominantTraits = Object.keys(scores).filter(
+    key => scores[key] === maxScore
+  );
+
+  // Generate list items with bold for the predominant trait(s)
+  const listItems = Object.keys(scores)
+    .map(attr => {
+        let name = ""
+        switch(attr) {
+            case "s":
+                name = "Sweetie"
+                break;
+            case "b":
+                name = "Baddie"
+                break;
+            case "r":
+                name = "Rascal"
+                break;
+            default:
+                break;
+        }
+      const text = `${name}: ${percentages[attr]}%`;
+      return predominantTraits.includes(attr)
+        ? `<li><strong>${text}</strong></li>`   // bold
+        : `<li>${text}</li>`;
+    })
+    .join("");
+
   app.innerHTML = `
-    <h1>Your Personality Breakdown</h1>
+    <h1>Your Truth Revealed</h1>
     <ul>
-      <li>Sweetie: ${percentages.s}%</li>
-      <li>Baddie: ${percentages.b}%</li>
-      <li>Rascal: ${percentages.r}%</li>
+      ${listItems}
     </ul>
     <button onclick="location.reload()">Restart</button>
   `;
-
 }
 
 renderQuestion();

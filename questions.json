@@ -26,5 +26,13 @@
       { "text": "I'd be a Giraffe", "weights": { "s": 0, "r": 1, "b": 1 } },
       { "text": "Bernie Sanders.", "weights": { "s": 1, "r": 0, "b": 1 } }
     ]
+  },
+  {
+    "text": "Are you a Sweetie, a Baddie, or a Rascal?",
+    "answers": [
+      { "text": "Sweetie", "weights": { "s": 1, "r": 0, "b": 0 } },
+      { "text": "Baddie", "weights": { "s": 0, "r": 1, "b": 0 } },
+      { "text": "Rascal", "weights": { "s": 0, "r": 0, "b": 1 } }
+    ]
   }
 ]

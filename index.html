@@ -9,6 +9,33 @@
     code {background: white;}
     a {border-bottom: 1px solid #444444; color: #444444; text-decoration: none;}
     a:hover {border-bottom: 0;}
+    /* Answer buttons */
+    button {
+      background: #ffffff;           /* clean white */
+      color: #444444;                /* matches your text */
+      border: 2px solid #cccccc;     /* subtle border */
+      border-radius: 12px;           /* rounded corners */
+      padding: 12px 24px;            /* comfortable click/tap size */
+      margin: 8px;                 /* spacing between buttons */
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle depth */
+      transition: all 0.2s ease-in-out;       /* smooth hover */
+    }
+    
+    /* Hover effect */
+    button:hover {
+      background: #f9f9f9;            /* slightly lighter */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      transform: translateY(-2px);     /* slight lift */
+    }
+    
+    /* Active / click effect */
+    button:active {
+      background: #eaeaea;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transform: translateY(0);
+    }
   </style>
 </head>
 <body>

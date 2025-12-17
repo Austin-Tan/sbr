@@ -59,6 +59,15 @@ const total = Object.values(scores).reduce((a, b) => a + b, 0);
     key => scores[key] === maxScore
   );
 
+  // Pick one for the image (first in case of tie)
+  const dominantTrait = predominantTraits[0];
+
+  const traitImages = {
+    "s": "sweetie.png",
+    "b": "baddie.png",
+    "r": "rascal.png"
+  };
+
   // Generate list items with bold for the predominant trait(s)
   const listItems = Object.keys(scores)
     .map(attr => {
@@ -85,6 +94,14 @@ const total = Object.values(scores).reduce((a, b) => a + b, 0);
 
   app.innerHTML = `
     <h1>Your Truth Revealed</h1>
+
+    <img
+        src="${traitImages[dominantTrait]}"
+        alt="${dominantTrait}"
+          class="result-image"
+
+    />
+
     <ul>
       ${listItems}
     </ul>

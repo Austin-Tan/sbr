@@ -2,113 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sweetie Baddie Rascal</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {margin: 5% auto; background: #f2f2f2; color: #444444; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.8; text-shadow: 0 1px 0 #ffffff; max-width: 73%;}
-    code {background: white;}
-    /* a { color: #444444; text-decoration: none;} */
-    /* a:hover {border-bottom: 0;} */
-    /* Answer buttons */
-    button {
-      background: #ffffff;           /* clean white */
-      color: #444444;                /* matches your text */
-      border: 2px solid #cccccc;     /* subtle border */
-      border-radius: 12px;           /* rounded corners */
-      padding: 12px 24px;            /* comfortable click/tap size */
-      margin: 8px;                 /* spacing between buttons */
-      font-size: 17px;
-      cursor: pointer;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* subtle depth */
-      transition: all 0.2s ease-in-out;       /* smooth hover */
-    }
-    
-    /* Hover effect */
-    button:hover {
-      background: #f9f9f9;            /* slightly lighter */
-      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-      transform: translateY(-2px);     /* slight lift */
-    }
-    
-    /* Active / click effect */
-    button:active {
-      background: #eaeaea;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      transform: translateY(0);
-    }
-    
-    .instagram-link {
-      display: inline-flex;
-      align-items: center;
-      color: #444444;
-    }
-    
-    .instagram-link:hover {
-      opacity: 0.7;
-    }
-    .result-image {
-      max-width: 300px;
-      display: block;
-      margin: 24px auto;
-      
-      /* visual polish */
-      border-radius: 24px;
-      border: 1px solid rgba(0, 0, 0, 0.08);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-      
-      /* fade-in animation */
-      opacity: 0;
-      animation: fadeIn 0.6s ease-out forwards;
-    }
-    
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(6px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Sweetie Baddie Rascal</h1>
-  <blockquote>
-    "Every being on earth is a sum of <b>Three Parts</b>. Only when one reconciles her inner <i>Sweetie</i>, <i>Baddie</i>, and <i>Rascal</i>, can she understand what it is to be alive."<br>
-    - <em>Michelle Obama</em>
-  </blockquote>
-  <hr>
-  <main id="app" ></main>
-  <hr>
-  
-  <p>
-    <a
-    href="https://www.instagram.com/seattleplungeclub/"
-    target="_blank"
-    rel="noopener"
-    aria-label="Follow us on Instagram"
-    class="instagram-link"
-    >
-    <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    >
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
-  </svg>
-</a>
-</p>
+  <div class="container">
+    <header>
+      <h1>Sweetie Baddie Rascal</h1>
+    </header>
+    <hr>
+    <main id="app"></main>
+    <hr>
+    <footer>
+      <a
+        href="https://www.instagram.com/seattleplungeclub/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Follow us on Instagram"
+        class="instagram-link"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+        </svg>
+      </a>
+    </footer>
+  </div>
 
-<script src="script.js"></script>
+  <!-- Load scripts in order (or use ES modules) -->
+  <script src="js/config.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/renderer.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

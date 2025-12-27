@@ -1,0 +1,122 @@
+[
+  {
+    "text": "When a friend is upset, what's your first instinct?",
+    "answers": [
+      { "text": "Listen, comfort, fix it, or give them space. Whatever they need.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Give advice confidently and tell them they've got this. It'll all blow over with time.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Make a joke, distract them, anything to lighten their mood and brighten their day a bit.", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "You find the last slice of pizza, what do you do?",
+    "answers": [
+      { "text": "Take it confidently because you want it, you're hungry, you deserve it because you found it (duh).", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Hide it. Take one bite and put it back. Or, forget about it and start making eggs (you got distracted).", "weights": { "s": 0, "b": 0, "r": 1 } },
+      { "text": "Offer it to someone else - ask around who it belongs to!", "weights": { "s": 1, "b": 0, "r": 0 } }
+    ]
+  },
+  {
+    "text": "Someone underestimates your abilities. How do you react?",
+    "answers": [
+      { "text": "Forget about it, show off your skills, and let them see who's boss. They'll see it eventually.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Try to prove yourself gently without showing frustration. Actions speak louder than words. Be humble.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Do something unpredictable to surprise them. That'll show em;)", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "You see someone sitting alone at lunch.",
+    "answers": [
+      { "text": "Sit with them. Duh??", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Smile and be welcoming, but only if they approach first.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Make a joke to break the ice, nudge their shoulder, or lighten the mood.", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "You get into a heated discussion. How do you handle it?",
+    "answers": [
+      { "text": "Crack a well-timed sarcastic comment to diffuse the tension! teehee", "weights": { "s": 0, "b": 0, "r": 1 } },
+      { "text": "Stand your ground. Assert your needs. Make sure your point is heard.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Stay calm, listen, and avoid escalating the conflict. Breathe deeply. Make sure all sides are heard, that's important.", "weights": { "s": 1, "b": 0, "r": 0 } }
+    ]
+  },
+  {
+    "text": "Your friends are planning a spontaneous adventure. You...",
+    "answers": [
+      { "text": "make sure your have influence on where you go!", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "join and enjoy time with the group, offer to bring snacks.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "stir the pot... what if we just left right now and played it by ear?", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "How do you react when someone gets credit for something you created?",
+    "answers": [
+      { "text": "Feel a bit smug, jealous, or upset, but just own it next time. Move on. Stay in your own lane.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Congratulate them, be sincere, no hard feelings. All will even itself out in time, it's not worth it. Take the high road.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Playfully point it out, but maybe with a little bitter undertone. Ultimately it'll be okay, just sucks a little for now.", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "How do you usually show care for friends or family?",
+    "answers": [
+      { "text": "Thoughtful gestures, checking in, listening, being intentional.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Encouragement, advice, backing them up, showing up.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Playful teasing, mischief, being on their timeline, making them laugh, bringing fun energy.", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "When it comes to style, fashion, presence...",
+    "answers": [
+      { "text": "I am bold, confident, unapologetic, take some risks and own them.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "I am comfortable, approachable, friendly.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "I am quirky, fun, add some flair, sometimes different, slightly unpredictable.", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "You see a \"do not touch\" sign. What do you do?",
+    "answers": [
+      { "text": "Probably touch, lol.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Probably don't touch (it's there for a reason).", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Avoid, but consider if it's worth ignoring the sign?", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "When you meet someone new, your first instinct is to...",
+    "answers": [
+      { "text": "Present your best self, first impressions count. Sus out the other person, show your confidence. Attract, don't chase.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Test the waters, tread with caution, make a joke or two, get to know people more over time.", "weights": { "s": 0, "b": 0, "r": 1 } },
+      { "text": "Be kind, friendly, welcoming. Invite them to coffee (on me, ofc!) <3", "weights": { "s": 1, "b": 0, "r": 0 } }
+    ]
+  },
+  {
+    "text": "A kid threw up nearby. You...",
+    "answers": [
+      { "text": "Grab paper towels, help them clean up, find their mom probably (who's kid is this btw?)", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Oof, rough day. Not my problem though... (again, who's kid is this?)", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "lol someone grab their dog to \"clean it up\" bahahahah it'd be funny tho", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "You have a free day. You...",
+    "answers": [
+      { "text": "Finally! I can get my nails done, go to the gym, film some content, maybe schedule that date for the evening.", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Thank god. Been needing a minute to catch up on emails, laundry, taking out the house trash, and call the rents.", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "Hear me out... what if we went skiing in Canada... I'm just saying... nahhhh I was just kidding (...unless... was I?)", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "We're at the pregame. You are...",
+    "answers": [
+      { "text": "working the room. getting ready. occasional winks sent to cuties around the room, brushing past shoulders letting others know you're here", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "setting up drinks/snacks, making sure everyone eats enough, cleaning up the glass that just broke, holding someone's hair back", "weights": { "s": 1, "b": 0, "r": 0 } },
+      { "text": "plotting devious moves for the night. texting your sneaky link in case nothing comes of the night. predicting who will be going off the handle most tn", "weights": { "s": 0, "b": 0, "r": 1 } }
+    ]
+  },
+  {
+    "text": "Finally... ideal vacation",
+    "answers": [
+      { "text": "haha wherever the wind blows (and the flights are cheapest)", "weights": { "s": 0, "b": 0, "r": 1 } },
+      { "text": "Somewhere luxurious... I'm thinking a massage and a bellini by the sea sound nice", "weights": { "s": 0, "b": 1, "r": 0 } },
+      { "text": "Somewhere that makes everyone in my party happy. Can we balance both adventure and fun, maybe squeeze in something educational or culture-focused?", "weights": { "s": 1, "b": 0, "r": 0 } }
+    ]
+  }
+]

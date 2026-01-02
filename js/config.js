@@ -9,7 +9,7 @@ const CONFIG = {
       name: 'Sweetie',
       image: 'images/sweetie.png',
       title: '🍬SWEETIE',
-      description: `🍬A sweetie is someone who gives off pure kindness in everything they do. They’re the type who genuinely cares about people, hypes others up for no reason, and makes you feel safe just by being around. They’re thoughtful without trying too hard, soft-hearted in the best way, and basically allergic to being mean. Their vibe is pure comfort — like the kind of person you can trust with your feelings or your fries.<br>Key phrases:<ul><li>\"I got you!\"</li><li>\"What do you need right now?\"</li><li>\"How can I help?\"</li><li>\"Saw this and thought of you\"</li><li>\"Text me when you make it home\"</li></ul>Examples IRL:<ul><li>“Ugh, Maya brought me soup when I was sick — she’s honestly a pure sweetie of a person.”</li><li>“He helped everyone with the project even though he was stressed. Pure sweetie energy.”</li><li>“She’s the kind of pure sweetie of a person who remembers your favorite snack and brings it just because.”</li></ul>Potential blindsides:<ul><li>Being too accommodating. Sweeties sometimes say yes when they’re tired, overwhelmed, or low-key annoyed.</li><li>People-pleasing tendencies. They try so hard to keep the peace that their own needs get ignored.</li><li>Avoiding conflict. They’d rather absorb the discomfort than speak up — even when they should.</li><li>Over-giving. They can pour so much energy into others that they accidentally burn themselves out.</li><li>Letting people walk all over them. Not because they’re weak — because they’re nice to a fault.</li><li>Reading emotions too deeply. A friend saying \"I'm fine\" can send them into overthinking mode for hours.</li><li>Hard time setting boundaries. They worry it’ll hurt someone’s feelings.</li></ul>Sweeties in the wild: <ul><li>Ted Lasso</li><li>Paddington Bear</li><li>Samwise Gamgee (Lord of the Rings)</li><li>Emma Watson</li><li>Hobbes (Calvin and Hobbes)</li><li>Dolly Parton</li>`
+      description: `🍬A sweetie is someone who gives off pure kindness in everything they do. They're the type who genuinely cares about people, hypes others up for no reason, and makes you feel safe just by being around. They're thoughtful without trying too hard, soft-hearted in the best way, and basically allergic to being mean. Their vibe is pure comfort — like the kind of person you can trust with your feelings or your fries.<br>Key phrases:<ul><li>\"I got you!\"</li><li>\"What do you need right now?\"</li><li>\"How can I help?\"</li><li>\"Saw this and thought of you\"</li><li>\"Text me when you make it home\"</li></ul>Examples IRL:<ul><li>“Ugh, Maya brought me soup when I was sick — she's honestly a pure sweetie of a person.”</li><li>“He helped everyone with the project even though he was stressed. Pure sweetie energy.”</li><li>“She's the kind of pure sweetie of a person who remembers your favorite snack and brings it just because.”</li></ul>Potential blindsides:<ul><li>Being too accommodating. Sweeties sometimes say yes when they're tired, overwhelmed, or low-key annoyed.</li><li>People-pleasing tendencies. They try so hard to keep the peace that their own needs get ignored.</li><li>Avoiding conflict. They'd rather absorb the discomfort than speak up — even when they should.</li><li>Over-giving. They can pour so much energy into others that they accidentally burn themselves out.</li><li>Letting people walk all over them. Not because they're weak — because they're nice to a fault.</li><li>Reading emotions too deeply. A friend saying \"I'm fine\" can send them into overthinking mode for hours.</li><li>Hard time setting boundaries. They worry it'll hurt someone's feelings.</li></ul>Sweeties in the wild: <ul><li>Ted Lasso</li><li>Paddington Bear</li><li>Samwise Gamgee (Lord of the Rings)</li><li>Emma Watson</li><li>Hobbes (Calvin and Hobbes)</li><li>Dolly Parton</li>`
     },
     b: {
       name: 'Baddie',
@@ -81,7 +81,6 @@ Rascals in the wild:
     }
   },
   
-  // Helper to get trait name
   getTraitName(key) {
     return this.traits[key]?.name || key;
   },
@@ -94,7 +93,6 @@ Rascals in the wild:
     return this.traits[key]?.description || '';
   },
   
-  // Helper to get trait image
   getTraitImage(key) {
     return this.traits[key]?.image || '';
   }

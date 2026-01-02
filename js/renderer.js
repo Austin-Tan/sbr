@@ -25,13 +25,10 @@ const Renderer = {
     `;
   },
   
-  /**
-   * Render a question
-   */
   renderQuestion(question, questionIndex, totalQuestions, onAnswer) {
     const answersHTML = question.answers
       .map((answer, index) => `
-        <button data-answer="${index}">${answer.text}</button>
+        <button class="answer-button" data-answer="${index}">${answer.text}</button>
       `)
       .join('');
     
@@ -54,14 +51,11 @@ const Renderer = {
     });
   },
   
-  /**
-   * Render email capture form
-   */
   renderEmailCapture(onSubmit, onSkip) {
     this.app.innerHTML = `
       <h2>Just one more thing...</h2>
       <h3>Can we get your email?</h3>
-      <p>We'd love to keep you up to date on all things Sweetie Baddie Rascal. We promise we won't spam ya.</p>
+      <p>We'd love to keep you up to date on all things Sweetie Baddie Rascal, with a no-spam guarantee.</p>
       
       <form id="email-form">
         <label for="email">
